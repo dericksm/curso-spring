@@ -7,7 +7,11 @@
 @REM "License"); you may not use this file except in compliance
 @REM with the License.  You may obtain a copy of the License at
 @REM
+<<<<<<< HEAD
 @REM    https://www.apache.org/licenses/LICENSE-2.0
+=======
+@REM    http://www.apache.org/licenses/LICENSE-2.0
+>>>>>>> Mergão do Faustão
 @REM
 @REM Unless required by applicable law or agreed to in writing,
 @REM software distributed under the License is distributed on an
@@ -18,7 +22,11 @@
 @REM ----------------------------------------------------------------------------
 
 @REM ----------------------------------------------------------------------------
+<<<<<<< HEAD
 @REM Maven Start Up Batch script
+=======
+@REM Maven2 Start Up Batch script
+>>>>>>> Mergão do Faustão
 @REM
 @REM Required ENV vars:
 @REM JAVA_HOME - location of a JDK home dir
@@ -26,7 +34,11 @@
 @REM Optional ENV vars
 @REM M2_HOME - location of maven2's installed home dir
 @REM MAVEN_BATCH_ECHO - set to 'on' to enable the echoing of the batch commands
+<<<<<<< HEAD
 @REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a keystroke before ending
+=======
+@REM MAVEN_BATCH_PAUSE - set to 'on' to wait for a key stroke before ending
+>>>>>>> Mergão do Faustão
 @REM MAVEN_OPTS - parameters passed to the Java VM when running Maven
 @REM     e.g. to debug Maven itself, use
 @REM set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
@@ -35,9 +47,13 @@
 
 @REM Begin all REM lines with '@' in case MAVEN_BATCH_ECHO is 'on'
 @echo off
+<<<<<<< HEAD
 @REM set title of command window
 title %0
 @REM enable echoing by setting MAVEN_BATCH_ECHO to 'on'
+=======
+@REM enable echoing my setting MAVEN_BATCH_ECHO to 'on'
+>>>>>>> Mergão do Faustão
 @if "%MAVEN_BATCH_ECHO%" == "on"  echo %MAVEN_BATCH_ECHO%
 
 @REM set %HOME% to equivalent of $HOME
@@ -117,6 +133,7 @@ for /F "usebackq delims=" %%a in ("%MAVEN_PROJECTBASEDIR%\.mvn\jvm.config") do s
 :endReadAdditionalConfig
 
 SET MAVEN_JAVA_EXE="%JAVA_HOME%\bin\java.exe"
+<<<<<<< HEAD
 set WRAPPER_JAR="%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.jar"
 set WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
 
@@ -158,6 +175,12 @@ if exist %WRAPPER_JAR% (
 @REM work with both Windows and non-Windows executions.
 set MAVEN_CMD_LINE_ARGS=%*
 
+=======
+
+set WRAPPER_JAR="%MAVEN_PROJECTBASEDIR%\.mvn\wrapper\maven-wrapper.jar"
+set WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
+
+>>>>>>> Mergão do Faustão
 %MAVEN_JAVA_EXE% %JVM_CONFIG_MAVEN_PROPS% %MAVEN_OPTS% %MAVEN_DEBUG_OPTS% -classpath %WRAPPER_JAR% "-Dmaven.multiModuleProjectDirectory=%MAVEN_PROJECTBASEDIR%" %WRAPPER_LAUNCHER% %MAVEN_CONFIG% %*
 if ERRORLEVEL 1 goto error
 goto end
